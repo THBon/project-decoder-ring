@@ -12,7 +12,7 @@ const caesarModule = (function () {
 
     const message = input.toLowerCase(); //Convert the message into lower-case.
 
-    if (encode == false) { //This will invert the shift the decode the message.
+    if (encode == false) { //This will invert the shift to decode the message
       shift *= -1;
     };
 
